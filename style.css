@@ -2,6 +2,7 @@
     border: none;
     margin: 1rem auto;
   }
+  
   html {
     scroll-behavior: smooth;
   }
@@ -19,4 +20,27 @@
   
   ::-webkit-scrollbar-corner {
     background: transparent;
+  }
+
+  .navbar {
+    height: 56px;
+    box-shadow: 0 5px 200px var(--theme);
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    animation: breathing 5s ease-out infinite normal;
+  }
+  
+  .navbar.noshadow {
+    box-shadow: 0 0 0 var(--background);
+    animation: none;
+  }
+  
+  .navitems {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    gap: 10px;
+    background: var(--background);
   }
