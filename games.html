@@ -14,7 +14,34 @@
     </center>
 </head>
 <body>
+    <style>
+    form {
+    background-color: #4654e1;
+    width: 300px;
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    }
     
+    input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+    }
+
+    ::placeholder {
+    color: #fff;
+    opacity: 0.7; 
+    }
+    </style>
+    <form id="form">
+        <input type="text" placeholder="Search for games..." class="searchbar">
+    </form> 
     <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
         new Crate({
             server: '1078475000627077130', // sans905games
