@@ -44,3 +44,23 @@
     gap: 10px;
     background: var(--background);
   }
+
+  .navlogo:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  .navitem {
+    border-radius: 35px;
+    padding: 10px 8px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    color: var(--text);
+  }
+  
+  .navitem[current] {
+    background: var(--theme);
+    color: var(--text-secondary);
+  }
