@@ -1,3 +1,15 @@
+.backg{
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background-image: linear-gradient(rgba(0,8,51,0.9),rgba(0,8,51,0.9)), url(pics/background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .alien {
     border: none;
     margin: 1rem auto;
