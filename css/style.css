@@ -3,3 +3,12 @@
   user-select: none;
 }
 
+.navitem {
+  border-radius: 35px;
+  padding: 10px 8px;
+  font-size: 15px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  color: var(--text);
+}
